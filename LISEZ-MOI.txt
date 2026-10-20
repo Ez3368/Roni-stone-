@@ -1,0 +1,14 @@
+RONI STONE — PROJET APK ANDROID
+
+Ce projet construit une première version de Roni Stone : un navigateur Internet Android avec barre d'adresse/recherche, retour, avancer et accueil.
+
+POUR OBTENIR L'APK DEPUIS UN TÉLÉPHONE ANDROID :
+1. Décompressez ce ZIP si nécessaire.
+2. Dans GitHub, ouvrez votre dépôt Roni Stone.
+3. Ajoutez tous les fichiers et dossiers de ce projet à la racine du dépôt, en conservant le dossier caché .github/workflows.
+4. Validez (Commit changes) et attendez la fin du workflow « Build Roni Stone APK ».
+5. Dans le dépôt GitHub, ouvrez Actions > Build Roni Stone APK > le dernier lancement réussi.
+6. Dans Artifacts, téléchargez « Roni-Stone-APK » et extrayez le ZIP téléchargé pour trouver app-debug.apk.
+7. Ouvrez app-debug.apk sur votre téléphone pour l'installer. Android peut demander d'autoriser l'installation depuis cette source.
+
+IMPORTANT : il s'agit d'une première version de navigateur fonctionnel, pas encore d'une application prête à publier sur Play Store. Le fichier app-debug.apk est une version de test.
