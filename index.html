@@ -1,1 +1,74 @@
 
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roni Stone</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #101522;
+  color: white;
+  text-align: center;
+}
+header {
+  background: #18233a;
+  padding: 25px 10px;
+}
+h1 { color: #61a8ff; }
+main { padding: 35px 18px; }
+input {
+  width: 90%;
+  max-width: 400px;
+  padding: 14px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+button {
+  padding: 14px 24px;
+  border: none;
+  border-radius: 8px;
+  background: #2479ee;
+  color: white;
+  font-size: 16px;
+}
+footer {
+  margin-top: 50px;
+  color: #aab6ca;
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>RONI STONE</h1>
+  <p>Ton espace Internet</p>
+</header>
+<main>
+  <h2>Bienvenue !</h2>
+  <p>Que souhaites-tu rechercher ?</p>
+  <form id="formulaire">
+    <input id="recherche" type="search"
+      placeholder="Écris ta recherche..." required>
+    <br>
+    <button type="submit">Rechercher</button>
+  </form>
+  <p>Simple, rapide et pratique.</p>
+</main>
+<footer>© 2026 Roni Stone</footer>
+<script>
+document.getElementById("formulaire").addEventListener("submit", function(e) {
+  e.preventDefault();
+  const mot = document.getElementById("recherche").value.trim();
+  if (mot) {
+    window.open("https://www.google.com/search?q=" +
+      encodeURIComponent(mot), "_blank");
+  }
+});
+</script>
+</body>
+</html>
