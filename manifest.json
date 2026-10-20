@@ -1,0 +1,14 @@
+
+{
+  "id": "/",
+  "name": "Roni Stone",
+  "short_name": "Roni Stone",
+  "description": "Roni Stone est une application de recherche sur Internet, simple et pratique.",
+  "lang": "fr",
+  "start_url": "/Roni-stone-/",
+  "scope": "/Roni-stone-/",
+  "display": "standalone",
+  "background_color": "#101522",
+  "theme_color": "#18233a",
+  "icons": []
+}
